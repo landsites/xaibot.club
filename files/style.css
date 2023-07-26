@@ -1083,7 +1083,7 @@ ol {
     /* transform: rotateY('0'); */
   }
   50% {
-    transform: translateX(100px);
+    transform: translateX(350px);
     /* transform: rotate3d(60,120,360); */
     /* transform: rotateY('180'); */
   }
@@ -1122,7 +1122,7 @@ ol {
   animation: hoverY 2s linear infinite;
 }
 .animate-hover-x3s {
-  animation: hoverX 15s linear infinite;
+  animation: hoverX 25s linear infinite;
 }
 .animate-hover-y4s {
   animation: hoverY 4s linear infinite;
