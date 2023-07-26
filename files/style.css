@@ -1078,10 +1078,14 @@ ol {
 @keyframes hoverX {
   0%,
   to {
-    transform: translateY(0);
+    transform: translateX(0);
+    /* transform: rotate3d(0,0,0); */
+    /* transform: rotateY('0'); */
   }
   50% {
-    transform: translateX(10px);
+    transform: translateX(100px);
+    /* transform: rotate3d(60,120,360); */
+    /* transform: rotateY('180'); */
   }
 }
 @keyframes hoverY {
@@ -1102,6 +1106,15 @@ ol {
       transform:scale(2);
   }
 }
+@keyframes roll {
+  0%,
+  to {
+      transform:rotateZ(0);
+  }
+  50% {
+      transform:rotateZ(180);
+  }
+}
 .animate-growth {
   animation: growth 20s linear infinite;
 }
@@ -1109,13 +1122,16 @@ ol {
   animation: hoverY 2s linear infinite;
 }
 .animate-hover-x3s {
-  animation: hoverX 3s linear infinite;
+  animation: hoverX 15s linear infinite;
 }
 .animate-hover-y4s {
   animation: hoverY 4s linear infinite;
 }
 .animate-hover-y6s {
   animation: hoverY 6s linear infinite;
+}
+.animate-roll-3s {
+  animation: roll 3s linear infinite;
 }
 
 .header-wrapper {
