@@ -86,7 +86,7 @@ h1 {
 .logoh1 {
   font-family: Montserrat;
   letter-spacing: 1px;
-  
+
 }
 
 .btn {
@@ -1289,7 +1289,7 @@ ol {
   .menu li a:hover {
     /* background: rgba(29, 37, 59, 0.6); */
     background: yellow;
-    color: red;  
+    color: red;
     opacity: 50%;
   }
   .menu li .submenu {
@@ -1841,7 +1841,7 @@ ol {
   text-transform: uppercase;
   font-weight: 400;
   border: 3px solid #fff;
- 
+
 }
 @media (min-width: 768px) {
   .default-btn {
@@ -1981,8 +1981,8 @@ ol {
   padding-block: 15px;
   margin: 20px;
   padding-top:30px;
- 
- 
+
+
 }
 .counter__item-content h2 {
   color: #ffffff;
@@ -3470,6 +3470,24 @@ ol {
 .sale__brand_wrap {
   padding-block: 30px;
   z-index: 1;
+}
+
+.responsive-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
