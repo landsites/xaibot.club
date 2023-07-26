@@ -1083,7 +1083,7 @@ ol {
     /* transform: rotateY('0'); */
   }
   50% {
-    transform: translateX(350px);
+    transform: translateX(250px);
     /* transform: rotate3d(60,120,360); */
     /* transform: rotateY('180'); */
   }
