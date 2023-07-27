@@ -1066,7 +1066,7 @@ ol {
     -webkit-animation: fadeInDown 0.5s;
     -moz-animation: fadeInDown 0.5s;
     border-bottom: 1px solid rgba(0, 255, 163, 0.05);
-    z-index: 999;
+    /* z-index: 999; */
   }
   .header-section.header--fixed .header-bottom {
     background: #000000;
@@ -1079,13 +1079,18 @@ ol {
   0%,
   to {
     transform: translateX(0);
-    /* transform: rotate3d(0,0,0); */
-    /* transform: rotateY('0'); */
   }
   50% {
-    transform: translateX(250px);
-    /* transform: rotate3d(60,120,360); */
-    /* transform: rotateY('180'); */
+    transform: translateX(270px);
+  }
+}
+@keyframes hoverLX {
+  0%,
+  to {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-300px);
   }
 }
 @keyframes hoverY {
@@ -1123,6 +1128,9 @@ ol {
 }
 .animate-hover-x3s {
   animation: hoverX 25s linear infinite;
+}
+.animate-hover-lx30s {
+  animation: hoverLX 3s linear infinite;
 }
 .animate-hover-y4s {
   animation: hoverY 4s linear infinite;
