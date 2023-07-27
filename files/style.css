@@ -1249,7 +1249,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 14px;
+    /* font-size: 14px; */
     color: #fff;
     border-bottom: 1px solid rgba(0, 255, 163, 0.05);
   }
@@ -1283,6 +1283,9 @@ ol {
 }
 @media (max-width: 991px) {
   .menu {
+    /* filter: drop-shadow(10px 10px 10px orange);     */
+    background: black;
+    opacity: 0.8;
     width: 100%;
     position: absolute;
     top: 100%;
@@ -1300,10 +1303,12 @@ ol {
     -webkit-backdrop-filter: blur(20px);
   }
   .menu li {
+    /* filter: drop-shadow(5px 5px 5px orange);     */
     width: 100%;
     padding: 0;
   }
   .menu li a {
+    filter: drop-shadow(5px 5px 5px orange);    
     display: block;
     padding: 10px 25px;
     font-size: 15px;
@@ -1312,10 +1317,13 @@ ol {
     color: #fff;
   }
   .menu li a:hover {
+    /* filter: drop-shadow(5px 5px 5px orange);     */
     /* background: rgba(29, 37, 59, 0.6); */
     background: yellow;
-    color: red;
-    opacity: 50%;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    /* opacity: 1; */
   }
   .menu li .submenu {
     padding-left: 20px;
@@ -1325,11 +1333,12 @@ ol {
     width: 100%;
   }
   .menu li .submenu li a {
-    font-size: 14px;
+    /* font-size: 14px; */
     display: flex;
     justify-content: space-between;
   }
   .menu.active {
+    filter: drop-shadow(5px 5px 5px orange);    
     -webkit-transform: scaleY(1);
     -ms-transform: scaleY(1);
     transform: scaleY(1);
