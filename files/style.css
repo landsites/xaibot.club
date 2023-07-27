@@ -1072,6 +1072,7 @@ ol {
   .header-section.header--fixed .header-bottom {
     background: #000000;
     backdrop-filter: blur(20px);
+    /* filter:blur(20px); */
     -webkit-backdrop-filter: blur(20px);
   }
 }
@@ -1286,8 +1287,8 @@ ol {
 @media (max-width: 991px) {
   .menu {
     /* filter: drop-shadow(10px 10px 10px orange);     */
-    background: black;
-    opacity: 0.8;
+    /* background: black; */
+    /* opacity: 0.8; */
     width: 100%;
     position: absolute;
     top: 100%;
@@ -1301,7 +1302,10 @@ ol {
     -ms-transform: scaleY(0);
     transform: scaleY(0);
     transform-origin: top;
-    background: 0x000;
+    /* background: 0x000; */
+    /* background-color:rgba(255,69,0,1); */
+    backdrop-filter: blur(20px);
+    /* filter:blur(20px); */
     -webkit-backdrop-filter: blur(20px);
   }
   .menu li {
@@ -1340,7 +1344,7 @@ ol {
     justify-content: space-between;
   }
   .menu.active {
-    filter: drop-shadow(5px 5px 5px orange);    
+    /* filter: drop-shadow(5px 5px 5px orange);     */
     -webkit-transform: scaleY(1);
     -ms-transform: scaleY(1);
     transform: scaleY(1);
