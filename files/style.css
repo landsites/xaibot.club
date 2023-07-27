@@ -1197,9 +1197,11 @@ ol {
 }
 .menu > li > a:after {
   right: 10px;
+  /* background-color: black; */
 }
 .menu > li > a::before {
   right: 14px;
+  color:white;
 }
 @media (min-width: 992px) {
   .menu > li > a:after {
@@ -1308,7 +1310,7 @@ ol {
     padding: 0;
   }
   .menu li a {
-    filter: drop-shadow(5px 5px 5px orange);    
+    /* filter: drop-shadow(5px 5px 5px orange);     */
     display: block;
     padding: 10px 25px;
     font-size: 15px;
@@ -1319,8 +1321,8 @@ ol {
   .menu li a:hover {
     /* filter: drop-shadow(5px 5px 5px orange);     */
     /* background: rgba(29, 37, 59, 0.6); */
-    background: yellow;
-    color: black;
+    /* background: yellow; */
+    /* color: black; */
     font-weight: bold;
     font-size: x-large;
     /* opacity: 1; */
@@ -1444,7 +1446,7 @@ ol {
     right: 11px;
     width: 10px;
     height: 2px;
-    background-color: #fff;
+    /* background-color: black; */
   }
   .menu-item-has-children > a::before {
     position: absolute;
