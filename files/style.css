@@ -1050,6 +1050,7 @@ ol {
   /* background: #000000; */
   z-index: 009;
   position: absolute;
+  opacity: 0.5;
 }
 @media (min-width: 992px) {
   .header-section {
